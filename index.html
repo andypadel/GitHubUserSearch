@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/main.css">
+	<title>Git Search</title>
+</head>
+
+<body>
+	<div class="pageContainer">
+		<div class="contentContainer">
+			<div id="searchDiv">
+				<input id="gitSearch" placeholder="Search username...">
+				<button id="searchButton">Search</button>
+			</div>
+			<div id="titleDiv" class="titleDiv">
+				<div id="avatarDiv">
+					<img id="avatarImg">
+				</div>
+				<div id="userInfoDiv">
+					<div id="usernameDiv"></div>
+					<div id="fullNameDiv"></div>
+					<div id="bioDiv"></div>
+				</div>
+			</div>
+			<div id="repoTableDiv" class="hide">
+				<div id="tableTitleDiv"></div>
+				<table id="repoTable">
+					<caption id="caption"></caption>
+					<tbody id="tbody"></tbody>
+				</table>
+			</div>
+			<div id="errorDiv" class="hide errorDiv">
+				Does not exist
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+	
+</body>
+
+</html>
